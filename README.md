@@ -6,3 +6,8 @@ XenForo IRC Relay
 3. Edit the bot.js script and set your IRC details/key/bitly details
 4. Install http, irc & bitly via npm
 5. Run bot.js, it will then callout to forumbot.php every 5 seconds
+
+# Warning
+The bot will relay ALL threads/posts with No filtering.
+
+To filter the output modify the SQL in forumbot.php to limit the query results by forum ID.
